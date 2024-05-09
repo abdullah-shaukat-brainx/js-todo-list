@@ -1,0 +1,85 @@
+.container{
+    width:50%;
+    align-self: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:"blue";
+    padding: 30px;
+    border: black solid 1px;
+    border-radius: 20px;
+}
+
+.heading{
+    text-align: center;
+    background-color:"blue";
+}
+.task-list .task-edit-input{
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+
+input{
+    border: 5px solid goldenrod;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+}
+#submit, .done-button{
+    height: 30px;
+    width: 70px;
+    background-color: green;
+    color: white;
+}
+
+button{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.update-button, .delete-button, .edit-button{
+    color: white;
+}
+
+.update-button{
+    background-color: blueviolet;
+}
+.delete-button{
+    background-color: red;
+}
+.edit-button{
+    background-color: rgb(146, 146, 0);
+}
+
+
+li{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+li p{
+    width:500px;
+}
+li input{
+    width:500px;
+}
+
+.task-box{
+    text-align: center;
+}
